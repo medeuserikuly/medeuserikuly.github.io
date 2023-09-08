@@ -2404,17 +2404,13 @@ ul {
     font-size: 10px;
   }
 
+  .header .menu__body {
+    position: relative;
+    z-index: 2;
+  }
+
   .header .menu__phone {
     display: none;
-  }
-
-  .header .menu__list {
-    gap: 20px;
-  }
-
-  .header .menu__list > li {
-    margin-top: 15px;
-    margin-left: 0px;
   }
 
   .header .menu__link {
