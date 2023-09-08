@@ -1692,32 +1692,22 @@ ul {
   width: 160px;
 }
 
-.menu__icon {
-  display: none;
-  caret-color: transparent;
-}
-
-.menu__list {
+.menu__body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  gap: 20px;
+  cursor: pointer;
 }
 
-.menu__list > li {
-  display: flex;
-  position: relative;
-  margin-left: 20px;
-}
-
-.menu__list > li img {
-  margin-right: 10px;
-}
-
-.menu__link {
+.menu__body a {
   display: flex;
   align-items: center;
-  color: #000;
-  font-size: 16px;
+  color: black;
+}
+
+.menu__body a img {
+  margin-right: 5px;
 }
 
 /* .fixed__nav {
@@ -2785,6 +2775,12 @@ ul {
   .form select option {
     background-color: #fff;
     font-weight: 300;
+  }
+
+  .form select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
   }
 
   .form textarea {
